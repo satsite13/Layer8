@@ -1,0 +1,14 @@
+GLOSSARY: Conventions and Variable Names
+
+L8: Layer 8 in Browser Module
+Layer8_RP: Layer 8 Reverse Proxy
+req_c: Client request originating from the static HTTP code.
+req_L8RP: Request from the Layer8_RP.
+req_spa: Client request originating from the single page application served from Layer8_RP. 
+res_L8RP: Response from the Layer8_RP
+res_sp: Response from the Service Provider
+SP: Service Provider
+
+
+
+780, L8_module_v1.ts

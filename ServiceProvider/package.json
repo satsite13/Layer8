@@ -1,0 +1,29 @@
+{
+  "name": "service_provider",
+  "version": "1.0.0",
+  "description": "the service provider portion of the Crypto Poem POC",
+  "main": "ServiceProvider.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satsite13/service_provider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satsite13/service_provider/issues"
+  },
+  "homepage": "https://github.com/satsite13/service_provider#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

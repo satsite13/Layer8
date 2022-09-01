@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://localhost:3000/CDN/L8_module_v1" type="module"></script>
+  <script src="/signup.mjs" type="module"></script>
+  <title>RP Signup</title>
+</head>
+<body>
+  <section>
+    <div>
+      <a href="/">Home</a> | <a href="/login">Login</a>
+    </div> 
+  </section>
+  <h1>Signup Page</h1>
+
+  <div class="" id="signup-form">
+    <h2>Signup to get Crypto Poems</h2>
+    <form class="">
+      <label class="" >Username: <input type="text" id="username"></label>
+      <label class="" >Password: <input type="password" id="password1" ></label>
+
+      <label class="" >Retype password: <input type="password" id="password2"></label>
+      <button class="" type="submit" id="signupBtn">Signup</button>
+    </form>
+  </div>
+
+  <div class="" id="identityBox">
+
+    <div id="addIdentities">
+      <h4>Add / Edit Identities</h4>
+      <form class="">
+        <label class="" >Identity: <input type="text" id="identity" disabled></label>
+        <button class="" type="submit" id="addIdentity" disabled>Add</button>
+        <button class="" type="submit" id="saveEdits" disabled>Save Edits</button>
+        <button class="" type="submit" id="getRandom" disabled>Generate Random</button>
+        <button class="" type="submit" id="deleteIdentity" disabled>Delete Identity</button>
+      </form>
+    </div>
+
+    <div id="viewIdentities">
+      <table class="">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Assigned Identidies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- example table entry
+          <tr>
+            <th>1</th>
+            <td> Lauhgin Cow </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

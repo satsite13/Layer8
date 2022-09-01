@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="http://localhost:3000/CDN/L8_module_v1" type="module"></script>
+  <script src="./login.mjs" type="module"></script>
+  <link rel="stylesheet" href="">
+  <title>Login to Layer8</title>
+</head>
+
+<body>
+  <section>
+    <div>
+      <a href="/">Home</a> | <a href="/signup">Signup</a>
+    </div> 
+  </section>
+
+  <div class="">
+    <h1>Login to Choose Your Identity</h1>
+    <h2>(Page served by the proxy)</h2>
+    <form id="loginForm">
+      <label> Username: <input type="text" id="username" value="ravster"> </label>
+      <label> Password: <input type="password" id="password" value="1234"> </label>
+      <button id="login">Login</button>
+      <button id="logout">Logout</button>
+    </form>
+  </div>
+
+  <div class="" id="identitySection">
+    <h1 id="welcomeBanner">Identities Available</h1>
+    <p>(This list will populate based on querying the proxy for the successfully logged in user's identities.)</p>
+    <div id="viewIdentities">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Identidy</th>
+          </tr>
+        </thead>
+        <tbody>
+        <!-- example table entry
+          <tr>
+            <th>1</th>
+            <td> Lauhgin Cow </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
